@@ -51,6 +51,7 @@ Template.locationDisplay.helpers({
   }
 });
 
+//getting results sorted acordingly
 Template.locationDisplay.events({
   "click #sort-address"() {
     Template.instance().locationArray.set(sortLocations("address"));

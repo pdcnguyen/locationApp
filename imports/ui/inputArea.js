@@ -4,6 +4,7 @@ import { Locations } from "../api/locations";
 
 import "./inputArea.html";
 
+//get value from the form and add into the database
 Template.inputArea.events({
   "submit .input-form": function (event) {
     event.preventDefault();
