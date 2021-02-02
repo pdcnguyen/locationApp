@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: linear-gradient(
+    45deg,
+    rgba(194, 229, 156, 1) 0%,
+    rgba(100, 179, 244, 1) 100%
+  );
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 0;
+  font-size: 16px;
+}
+body {
+
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.692);
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.header{
+  display: flex;
+  width: 50%;
+  flex: 2
+}
+
+h1{
+font-size: 100px;
+margin-left: 6rem;
+}
+
+.header-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.input-area{
+  flex: 2;
+
+
+}
+
+.input{
+  margin-bottom: 2rem;
+}
+
+#search-text{
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-left: 0;
+}
+input {
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-bottom: 0.2rem solid transparent;
+  box-shadow: 0px 3px 10px #00000025;
+  margin-left: 0.5rem;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 0.2rem solid#F9A620;
+}
+
+button {
+  outline: none;
+  font-weight: bold;
+  font-size: 120%;
+  background-color: #f9a620;
+  color: #ffffff;
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1rem;
+  box-shadow: 0px 3px 10px #00000025;
+  transition: all 0.2s;
+}
+
+button:hover {
+  transform: scale(0.95);
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.location-display{
+  flex: 8;
+  width: 80%;
+ 
+
+}
+
+table, th, td {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#sort-address, #sort-zipCode, #sort-country{
+margin: 1rem;
+}
+
+.delete-btn{
+  margin: 0.5rem;
+  width: 5rem;
+}

@@ -1,0 +1,16 @@
+<template name="locationDisplay">
+  <input type="text" placeholder="Search" id="search-text" />
+
+  
+  <table>
+    <tr>
+      <th><button id="sort-address">Address</button></th>
+      <th><button id="sort-zipCode">ZIP code</button></th>
+      <th><button id="sort-country">Country</button></th>
+      <th></th>
+    </tr>
+    {{#each locations}} {{> location}} {{/each}}
+  </table>
+ 
+
+</template>

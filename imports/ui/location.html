@@ -1,0 +1,10 @@
+<template name="location">
+  <tr>
+    <td>{{address}}</td>
+    <td>{{zipCode}}</td>
+    <td>{{country}}</td>
+    {{#if currentUser}}
+    <td><button class="delete-btn">Delete</button></td>
+    {{/if}}
+  </tr>
+</template>
